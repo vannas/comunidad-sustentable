@@ -1,13 +1,7 @@
 .container-fluid {
     background-color: #cbcbcb;
-    background-image: url(/comunidad-sostenible/img/semilla.jpg);
     font-family: 'Times New Roman', Times, serif;
     }
-
-p {
-    position: relative;
-    text-align: center;
-}
 
 .header {
     background-color: white;
@@ -18,25 +12,26 @@ p {
         right:15px;
     }
 
-.row .logo img {
-    max-height: 90px;
-    padding-left: 50px;
+    .row .logo img {
+        max-height: 90px;
+        padding-left: 50px;
+        }
+
+    .row .nav li {
+        list-style-type: none;
+        justify-content: end;
+        display: inline-block;
+        text-align: end;
+        margin-top: 20px;
+        }
+
+    .row .nav a{
+        color: slategrey;
     }
-
-.row .nav li {
-    list-style-type: none;
-    justify-content: end;
-    display: inline-block;
-    text-align: end;
-    margin-top: 20px;
-     }
-
-.row .nav a{
-    color: slategrey;
-}
 
 .bigbanner {
     min-height: 600px;
+    background-image: url(/comunidad-sostenible/img/semilla.jpg);
     }
 
 .bigtext {
@@ -49,7 +44,7 @@ p {
     padding-top: 80px;
     }
 
-.col-lg-12 {
+.col-lg-11 {
     background-color: #cbcbcb;
     }
 
@@ -65,12 +60,12 @@ p {
     }
 
 .row .picmethod {
-    ;
+    background-color: #cdcdcd;
 }
 
-.row .picmethod img {
-    resize: both;
-    max-width: 50%;
+.picmethod img {
     overflow: hidden;
-
-}
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    }
